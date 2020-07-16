@@ -10,14 +10,14 @@ child = fork do
   $stderr.reopen('/dev/null')
   rd.close
   res = -1
-  Open3.popen2e('/usr/bin/wormhole', 'send', '--hide-progress', ENV['PT_filename']) do |i, o, th|
+  Open3.popen2e('/usr/bin/wormhole', 'send', '--hide-progress', ENV['PT_filename']) do |_i, o, th|
     done = false
-    while line = o.gets
-      if !done && line =~ /^Wormhole code is: (.*)$/
-        wr.puts $1
-        wr.close
-        done = true
-      end
+    while !done && (line = o.gets)
+      next unless line =~ /^Wormhole code is: (.*)$/
+
+      wr.puts Regexp.last_match(1)
+      wr.close
+      done = true
     end
     res = th.value
   end
@@ -27,5 +27,5 @@ end
 wr.close
 Process.detach(child)
 
-puts %[{"code": "#{rd.gets.chomp}" }]
+puts %({"code": "#{rd.gets.chomp}" })
 rd.close
