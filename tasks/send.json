@@ -1,0 +1,10 @@
+{
+  "description": "Send a file from a remote location",
+  "input_method": "environment",
+  "parameters": {
+    "filename": {
+      "description": "Remote filename",
+      "type": "String"
+    }
+  }
+}
