@@ -27,5 +27,5 @@ end
 wr.close
 Process.detach(child)
 
-puts %[{"wormhole-code": "#{rd.gets.chomp}" }]
+puts %[{"code": "#{rd.gets.chomp}" }]
 rd.close
