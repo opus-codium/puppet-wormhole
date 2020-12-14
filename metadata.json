@@ -1,0 +1,34 @@
+{
+  "name": "opuscodium-wormhole",
+  "version": "0.0.0",
+  "source": "https://github.com/opus-codium/puppet-wormhole",
+  "author": "Opus Codium",
+  "license": "Apache-2.0",
+  "summary": "The wormhole module lets you use Puppet / Bolt / Choria to manage magic wormhole and transfer files between nodes",
+  "project_page": "https://github.com/opus-codium/puppet-wormhole",
+  "issues_url": "https://github.com/opus-codium/puppet-wormhole/issues",
+	"data_provider": "hiera",
+  "dependencies": [
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "10"
+      ]
+    },
+    {
+      "operatingsystem": "FreeBSD",
+      "operatingsystemrelease": [
+        "11",
+        "12"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 5.0.0 < 8.0.0"
+    }
+  ]
+}
