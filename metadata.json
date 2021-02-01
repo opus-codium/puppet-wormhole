@@ -7,7 +7,6 @@
   "summary": "The wormhole module lets you use Puppet / Bolt / Choria to manage magic wormhole and transfer files between nodes",
   "project_page": "https://github.com/opus-codium/puppet-wormhole",
   "issues_url": "https://github.com/opus-codium/puppet-wormhole/issues",
-  "data_provider": "hiera",
   "dependencies": [
 
   ],
