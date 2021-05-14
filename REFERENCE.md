@@ -16,15 +16,20 @@
 
 ## Classes
 
-### `wormhole`
+### <a name="wormhole"></a>`wormhole`
 
 Manage magic-wormhole
 
 #### Parameters
 
-The following parameters are available in the `wormhole` class.
+The following parameters are available in the `wormhole` class:
 
-##### `manage_package`
+* [`manage_package`](#manage_package)
+* [`package_name`](#package_name)
+* [`package_ensure`](#package_ensure)
+* [`package_provider`](#package_provider)
+
+##### <a name="manage_package"></a>`manage_package`
 
 Data type: `Boolean`
 
@@ -32,7 +37,7 @@ Whether the wormhole package should be managed by the module
 
 Default value: ``true``
 
-##### `package_name`
+##### <a name="package_name"></a>`package_name`
 
 Data type: `String`
 
@@ -40,7 +45,7 @@ Name of the wormhole package
 
 Default value: `'magic-wormhole'`
 
-##### `package_ensure`
+##### <a name="package_ensure"></a>`package_ensure`
 
 Data type: `String`
 
@@ -48,7 +53,7 @@ Ensure value for the wormhole package resource
 
 Default value: `'installed'`
 
-##### `package_provider`
+##### <a name="package_provider"></a>`package_provider`
 
 Data type: `Optional[String]`
 
@@ -56,13 +61,13 @@ Package provider to manage the wormhole package with
 
 Default value: ``undef``
 
-### `wormhole::package`
+### <a name="wormholepackage"></a>`wormhole::package`
 
 Manage the wormhole package
 
 ## Tasks
 
-### `receive`
+### <a name="receive"></a>`receive`
 
 Receive a file from a remote location
 
@@ -82,7 +87,7 @@ Data type: `String`
 
 Wormhole code
 
-### `send`
+### <a name="send"></a>`send`
 
 Send a file from a remote location
 
