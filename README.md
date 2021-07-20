@@ -1,6 +1,13 @@
 # wormhole
 
-[![Build Status](https://travis-ci.com/opus-codium/puppet-wormhole.svg?branch=master)](https://travis-ci.com/opus-codium/puppet-wormhole)
+<!-- header GFM -->
+[![Build Status](https://img.shields.io/github/workflow/status/opus-codium/puppet-wormhole/Release)](https://github.com/opus-codium/puppet-wormhole/releases)
+[![Puppet Forge](https://img.shields.io/puppetforge/v/opuscodium/wormhole.svg)](https://forge.puppetlabs.com/opuscodium/wormhole)
+[![Puppet Forge - downloads](https://img.shields.io/puppetforge/dt/opuscodium/wormhole.svg)](https://forge.puppetlabs.com/opuscodium/wormhole)
+[![Puppet Forge - endorsement](https://img.shields.io/puppetforge/e/opuscodium/wormhole.svg)](https://forge.puppetlabs.com/opuscodium/wormhole)
+[![Puppet Forge - scores](https://img.shields.io/puppetforge/f/opuscodium/wormhole.svg)](https://forge.puppetlabs.com/opuscodium/wormhole)
+[![License](https://img.shields.io/github/license/opus-codium/puppet-wormhole.svg)](https://github.com/voxpupuli/opuscodium-wormhole/blob/master/LICENSE.md)
+<!-- header -->
 
 #### Table of Contents
 
