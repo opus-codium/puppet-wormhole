@@ -6,8 +6,13 @@
 
 ### Classes
 
+#### Public Classes
+
 * [`wormhole`](#wormhole): Manage magic-wormhole
-* [`wormhole::package`](#wormholepackage): Manage the wormhole package
+
+#### Private Classes
+
+* `wormhole::package`: Manage the wormhole package
 
 ### Tasks
 
@@ -60,10 +65,6 @@ Data type: `Optional[String]`
 Package provider to manage the wormhole package with
 
 Default value: ``undef``
-
-### <a name="wormholepackage"></a>`wormhole::package`
-
-Manage the wormhole package
 
 ## Tasks
 
