@@ -1,4 +1,6 @@
 # @summary Manage the wormhole package
+#
+# @api private
 class wormhole::package {
   assert_private()
 
