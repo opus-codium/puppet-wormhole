@@ -29,20 +29,20 @@ Manage magic-wormhole
 
 The following parameters are available in the `wormhole` class:
 
-* [`manage_package`](#manage_package)
-* [`package_name`](#package_name)
-* [`package_ensure`](#package_ensure)
-* [`package_provider`](#package_provider)
+* [`manage_package`](#-wormhole--manage_package)
+* [`package_name`](#-wormhole--package_name)
+* [`package_ensure`](#-wormhole--package_ensure)
+* [`package_provider`](#-wormhole--package_provider)
 
-##### <a name="manage_package"></a>`manage_package`
+##### <a name="-wormhole--manage_package"></a>`manage_package`
 
 Data type: `Boolean`
 
 Whether the wormhole package should be managed by the module
 
-Default value: ``true``
+Default value: `true`
 
-##### <a name="package_name"></a>`package_name`
+##### <a name="-wormhole--package_name"></a>`package_name`
 
 Data type: `String`
 
@@ -50,7 +50,7 @@ Name of the wormhole package
 
 Default value: `'magic-wormhole'`
 
-##### <a name="package_ensure"></a>`package_ensure`
+##### <a name="-wormhole--package_ensure"></a>`package_ensure`
 
 Data type: `String`
 
@@ -58,13 +58,13 @@ Ensure value for the wormhole package resource
 
 Default value: `'installed'`
 
-##### <a name="package_provider"></a>`package_provider`
+##### <a name="-wormhole--package_provider"></a>`package_provider`
 
 Data type: `Optional[String]`
 
 Package provider to manage the wormhole package with
 
-Default value: ``undef``
+Default value: `undef`
 
 ## Tasks
 
