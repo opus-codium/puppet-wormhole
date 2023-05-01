@@ -1,4 +1,5 @@
 #!/opt/puppetlabs/puppet/bin/ruby
+# frozen_string_literal: true
 
 require 'open3'
 
@@ -21,7 +22,7 @@ child = fork do
   Open3.popen2e(wormhole, 'send', '--hide-progress', ENV['PT_filename']) do |_i, o, th|
     done = false
     while !done && (line = o.gets)
-      next unless line =~ /^Wormhole code is: (.*)$/
+      next unless line =~ %r{^Wormhole code is: (.*)$}
 
       wr.puts Regexp.last_match(1)
       wr.close
