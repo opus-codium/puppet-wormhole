@@ -4,7 +4,15 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
-## [v2.2.0](https://github.com/opus-codium/puppet-wormhole/tree/v2.2.0) (2023-06-14)
+## [v2.3.0](https://github.com/opus-codium/puppet-wormhole/tree/v2.3.0) (2023-07-05)
+
+[Full Changelog](https://github.com/opus-codium/puppet-wormhole/compare/v2.2.0...v2.3.0)
+
+**Implemented enhancements:**
+
+- Add support for Puppet 8 [\#25](https://github.com/opus-codium/puppet-wormhole/pull/25) ([smortex](https://github.com/smortex))
+
+## [v2.2.0](https://github.com/opus-codium/puppet-wormhole/tree/v2.2.0) (2023-06-15)
 
 [Full Changelog](https://github.com/opus-codium/puppet-wormhole/compare/v2.1.0...v2.2.0)
 
