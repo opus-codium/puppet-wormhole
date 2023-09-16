@@ -1,7 +1,7 @@
 # wormhole
 
 <!-- header GFM -->
-[![Build Status](https://img.shields.io/github/workflow/status/opus-codium/puppet-wormhole/Release)](https://github.com/opus-codium/puppet-wormhole/releases)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/opus-codium/puppet-wormhole/release.yml)](https://github.com/opus-codium/puppet-wormhole/releases)
 [![Puppet Forge](https://img.shields.io/puppetforge/v/opuscodium/wormhole.svg)](https://forge.puppetlabs.com/opuscodium/wormhole)
 [![Puppet Forge - downloads](https://img.shields.io/puppetforge/dt/opuscodium/wormhole.svg)](https://forge.puppetlabs.com/opuscodium/wormhole)
 [![Puppet Forge - endorsement](https://img.shields.io/puppetforge/e/opuscodium/wormhole.svg)](https://forge.puppetlabs.com/opuscodium/wormhole)
