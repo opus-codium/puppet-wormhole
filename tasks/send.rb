@@ -19,7 +19,7 @@ child = fork do
   $stderr.reopen('/dev/null')
   rd.close
   res = -1
-  Open3.popen2e(wormhole, 'send', '--hide-progress', ENV['PT_filename']) do |_i, o, th|
+  Open3.popen2e(wormhole, 'send', '--hide-progress', ENV.fetch('PT_filename')) do |_i, o, th|
     done = false
     while !done && (line = o.gets)
       next unless line =~ %r{^Wormhole code is: (.*)$}
